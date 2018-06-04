@@ -1,0 +1,16 @@
+@keyframes footer {
+	from {bottom:-50;}
+	to{ bottom:0;}
+}
+
+
+.foot{
+	background-color: rgba(0,0,0,0.8);	
+	bottom: -50px;
+	left: 0;
+	min-height: 50px;
+	animation-name:footer;
+	animation-duration: 3s;
+	animation-fill-mode: forwards; 
+
+}

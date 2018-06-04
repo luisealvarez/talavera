@@ -1,0 +1,80 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+body{
+	background: black;
+}
+
+
+@keyframes portada{
+	from{
+		opacity: 0;
+		margin-top: -50px;
+	}
+	to{
+		opacity: 1;		
+	}
+}
+
+
+.fondo-portada{
+	background-image: url(../media/DSC_0017_Revelada.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-width: 75%;
+	min-height: 700px;
+	box-shadow: 5px 5px 50px rgb(0, 0, 26) ;
+	border-radius: 10px;
+
+	animation-name:portada;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+.fondo-letra{
+	background-color: rgba(0,0,0,0.5);
+	border: 3px solid white;
+	letter-spacing: 1px;
+}
+
+.sombra{
+	box-shadow: 5px 5px 20px black;
+	transition: transform 1s ease-in-out;
+	-webkit-transition: transform 1s ease-in-out;
+	-moz-transition: transform 1s ease-in-out;
+	-o-transition: transform 1s ease-in-out;
+
+}
+
+.sombra:hover{
+	transform: scale(1.2);
+}
+
+@keyframes footer {
+	from {bottom:-50;}
+	to{ bottom:0;}
+}
+
+
+.foot{
+	background-color: rgba(0,0,0,0.8);	
+	bottom: -50px;
+	left: 0;
+	min-height: 50px;
+	animation-name:footer;
+	animation-duration: 3s;
+	animation-fill-mode: forwards; 
+
+}
+
+section div a{
+	color: white;
+}
+
+section div a:hover{
+	text-decoration: none;
+	color: white;
+
+}

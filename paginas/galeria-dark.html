@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/fondo.css">
+
+    <!-- Icono -->
+    <link rel="shortcut icon" type="image/png" href="../media/Bandera_de_Talavera.svg.png">
+
+    <!-- Fuentes de google-->
+    <link href="https://fonts.googleapis.com/css?family=Economica:700i" rel="stylesheet">
+
+    <title>Galería</title>
+  </head>
+    
+  <body>
+    
+    <!-- Fondo -->
+    <video src="../media/Traffic - 6457.mp4" id="video" class="video-fondo" autoplay loop></video>
+
+    <!-- Navegador  -->
+    <nav class="navbar navbar-osc navbar-expand-lg navbar-dark" id="nav">
+      <a href="../index.html" class="marca px-2 mr-md-3 rounded">TLV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="inicio" href="index-dark.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" id="galeria" href="#">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nosotros" href="nosotros-dark.html">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="servicios" href="servicios-dark.html">Servicios <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contacto" href="contacto-dark.html">Contacto</a>
+            </li>
+          </ul>
+          <button class="luces-btn" id="luces" data-toggle="tooltip" title="Enciende o apaga la luz">
+            <img src="../media/11-2-light-bulb-png-pic.png" class="luces" alt="">
+          </button>
+
+      </div>
+    </nav>
+    <!-- Fin del navegador  -->
+
+    <!-- Contenedor principal-->
+
+    <div class="container-fluid mt-md-2 rounded fondo-portada">
+    
+      <section>
+
+       <!-- Galeria -->
+        <div class="row pb-md-1 justify-content-center">
+
+           
+          <!-- Carrusel-->
+          <div id="carouselExampleControls" class="carousel slide align-self-center d-none d-md-block rounded col-lg-6 " data-ride="carousel">
+            <div class="carousel-inner mt-md-4 rounded-top">
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../media/LuisTala4.jpg" alt="Second slide">
+                    <div class="row">
+                      <div class="col-md-12">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="titulo">Puente de Castilla-La Mancha</h5>
+                          </div>
+                      </div>
+                    </div> 
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../media/DSC0101-1.jpg" alt="Second slide">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="titulo">Reloj de Sol</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../media/LuisTala3.jpg" alt="Third slide">
+                     <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class="titulo">Centro ciudad</h5>
+                          </div>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../media/LuisTala2.jpg" id="elarte" alt="Third slide">
+                    <div class="row">
+                        <div class="col-md-12">
+                          <div class="carousel-caption d-none d-md-block">
+                          <h5 class="titulo">Fuente del Prado</h5>
+
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="carousel-item">
+                    <img class="d-block w-100" src="../media/DSC_0088_Revelada.JPG" alt="First slide">
+                    <div class="row">
+                        <div class="col-md-12">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5 class="titulo">Basílica de Nuestra Señora del Prado</h5>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../media/DSC_0041_Revelada.JPG" alt="Second slide">
+                    <div class="row">
+                      <div class="col-md-12">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5 class="titulo">Puente de la Reina Sofía </h5>
+                        </div>
+                    </div>
+                  </div>   
+                </div>  
+              </div>
+          </div>
+
+
+        <!-- Galería de selección lg -->
+          <div class="col-md-5 d-none d-lg-block mt-sm-5 mt-md-1">
+                    <div class="row ">
+                      <div class="col-md-6 my-sm-2">
+                        <a data-target="#carouselExampleControls" data-slide-to="0"><img src="../media/LuisTala4.jpg" class="rounded img-thumbnail" alt="..."></a>
+                      </div>
+                      
+                      <div class="col-md-6 my-sm-2">
+                        <a data-target="#carouselExampleControls" data-slide-to="1"><img src="../media/DSC0101-1.jpg" class="rounded img-thumbnail float-right" alt="..."></a>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-md-6 my-sm-2">
+                        <a data-target="#carouselExampleControls" data-slide-to="2"><img src="../media/LuisTala3.jpg" class="rounded img-thumbnail float-left" alt="..."></a>
+                      </div>
+                      
+                      <div class="col-md-6 my-sm-2">
+                        <a  data-target="#carouselExampleControls" data-slide-to="3" ><img src="../media/LuisTala2.jpg" class="rounded img-thumbnail float-right"  alt="..."></a>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-md-6 my-sm-2">
+                        <a data-target="#carouselExampleControls" data-slide-to="4"><img src="../media/DSC_0088_Revelada.JPG" class="rounded img-thumbnail" alt="..."></a>
+                      </div>
+                      
+                      <div class="col-md-6 my-sm-2">
+                        <a data-target="#carouselExampleControls" data-slide-to="5"><img src="../media/DSC_0041_Revelada.JPG" class="rounded img-thumbnail float-right" alt="..."></a>
+                      </div>
+                    </div>       
+          </div>
+        <!--  Fin de galería de selección lg -->  
+          
+        <!-- Galería de selección md -->
+          <div class="col-md-12 d-md-block d-lg-none mt-sm-5 mt-md-1">
+              <div class="row ">
+                <div class="col-md-2 my-sm-2">
+                    <a data-target="#carouselExampleControls" data-slide-to="0"> <img src="../media/LuisTala4.jpg" class="rounded img-thumbnail" alt="..."></a>
+                </div>
+                      
+                <div class="col-md-2 my-sm-2">
+                    <a data-target="#carouselExampleControls" data-slide-to="1"><img src="../media/_DSC0101-1.jpg" class="rounded img-thumbnail float-right" alt="..."></a>
+                </div>
+
+                <div class="col-md-2 my-sm-2">
+                    <a data-target="#carouselExampleControls" data-slide-to="2"><img src="../media/LuisTala3.jpg" class="rounded img-thumbnail float-left" alt="..."></a>
+                </div>
+
+                <div class="col-md-2 my-sm-2">
+                    <a  data-target="#carouselExampleControls" data-slide-to="3" ><img src="../media/LuisTala2.jpg" class="rounded img-thumbnail float-right"  alt="..."></a>
+                </div>
+
+                <div class="col-md-2 my-sm-2">
+                    <a data-target="#carouselExampleControls" data-slide-to="4"><img src="../media/DSC_0088_Revelada.JPG" class="rounded img-thumbnail" alt="..."></a>
+                </div>
+                      
+                <div class="col-md-2 my-sm-2">
+                    <a data-target="#carouselExampleControls" data-slide-to="5"><img src="../media/DSC_0041_Revelada.JPG" class="rounded img-thumbnail float-right" alt="..."></a>
+                </div>        
+              </div>             
+          </div>       
+        <!--  Fin de galería de selección md -->
+          <!-- Fin Carrusel-->
+        </div>
+        <!--Fin Galeria --> 
+      </section>
+
+    </div>
+    <!-- Fin del contenedor principal-->
+
+    <footer>
+        <div class=" navbar navbar-osc d-none d-lg-block  " id="footer">
+          <div class="row  justify-content-center py-2">
+            <div class="col-lg-2 my-2 bg-light text-center border rounded  "> 
+              <h5 class="py-2 ">Fotos destacadas de la semana</h5>
+          
+            </div>
+          </div>  
+          <div class="row pb-md-3 text-light">
+            <div class="col-lg-3"> 
+              <img src="../media/DSC_0008_Revelada.JPG" class="img-thumbnail rounded" alt="">
+          
+            </div>
+          
+            <div class="col-lg-3"> 
+              <img src="../media/LuisTala1.jpg" class="img-thumbnail rounded" alt="">
+          
+            </div>
+          
+            <div class="col-lg-3"> 
+              <img src="../media/DSC_0077_Revelada.JPG" class="img-thumbnail rounded" alt="">
+          
+            </div>
+          
+            <div class="col-lg-3"> 
+              <img src="../media/DSC_0317_Revelada.JPG" class="img-thumbnail rounded" alt="">
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <!-- jQuery,Bootstrap js-->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--Js Propio-->
+    <script src="../js/galeriaDark.js"></script>
+  </body>
+</html>

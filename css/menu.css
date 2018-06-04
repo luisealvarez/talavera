@@ -1,0 +1,34 @@
+.marca{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	text-shadow: none;
+	border:1px solid black;
+
+}
+
+.marca:hover{
+	text-decoration:none;
+	transform: scale(1.1);
+}
+
+.navbar-osc{
+	background-color: rgba(0,0,0,0.7);
+
+}
+
+.navbar-clar{
+	background-color: rgba(255,255,255,0.8);
+
+}
+.luces{
+	width: 20px;
+	height: 20px;
+	overflow: auto;
+}
+
+.luces-btn{
+	border:3px solid black;
+	border-radius: 20px;
+	box-shadow: 2px 2px 50px white;
+}

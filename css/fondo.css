@@ -1,0 +1,9 @@
+.video-fondo{
+	position: fixed;
+	z-index: -100;
+	filter: blur(5px);
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	}

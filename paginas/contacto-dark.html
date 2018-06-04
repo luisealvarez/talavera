@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/fondo.css">
+
+    <!-- Icono -->
+    <link rel="shortcut icon" type="image/png" href="../media/Bandera_de_Talavera.svg.png">
+
+    <!-- Fuentes de google-->
+    <link href="https://fonts.googleapis.com/css?family=Economica:700i" rel="stylesheet">
+
+    <title>Contacto</title>
+  </head>
+    
+  <body>
+    
+    <!-- Fondo -->
+    <video src="../media/Traffic - 6457.mp4" id="video" class="video-fondo" autoplay loop></video>
+
+    <!-- Navegador  -->
+    <nav class="navbar navbar-osc navbar-expand-lg navbar-dark" id="nav" >
+      <a href="../index.html" class="marca px-2 mr-md-3 rounded">TLV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="inicio" href="index-dark.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="galeria" href="galeria-dark.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nosotros" href="nosotros-dark.html">Nosotros <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="servicios" href="servicios-dark.html">Servicios <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="contacto" href="#">Contacto</a>
+            </li>
+          </ul>
+          <button class="luces-btn" id="luces" data-toggle="tooltip" title="Enciende o apaga la luz">
+            <img src="../media/11-2-light-bulb-png-pic.png" class="luces" alt="">
+          </button>
+
+      </div>
+    </nav>
+    <!-- Fin del navegador  -->
+
+    <!-- Contenedor principal-->
+
+    <div class="container-fluid mt-5" id="cont">
+    
+      <section>
+
+        <div class=" row justify-content-center ">
+          <div class="col-md-8">
+            <div class="navbar-clar pb-2 mb-4 rounded">
+                <div class="container py-3 mb-4">
+                  <div class="row mb-2">
+                    <div class="col-lg-2 text-center">
+                      <h1 class="lead display-4">TLV DLR </h1>
+                    </div>
+                    <div class="col-lg-2 align-self-center d-none d-lg-block ">
+                      <img src="../media/Escudo_de_Talavera_de_la_Reina_(Toledo).svg" class="escudo" alt="">
+                    </div>
+
+                    <div class="col-lg-8 align-self-center ">
+                      <h3 class="text-center">¿Quieres que tu foto aparezca en nuestra página?</h3>
+                    </div>
+                  </div>
+
+                  <hr>
+
+                  <div class="row justify-content-center">
+                    
+                    <div class="col-lg-12">
+                      <div class="card text-center">
+                          
+                          <div class="card-body text-left">
+                            <div class="row">
+                              <div class="col-lg-4 border-right">
+                                <h5 class="card-title">Requisitos:</h5>
+
+                                <ul>
+                                  <li>Solo aceptamos una foto por persona.</li>
+                                  <li>La calidad de la imagen debe ser considerable.</li>
+                                  <li>La resolución debe ser mayor a 720 pixeles.</li>
+                                  <li>La imagen debe ser propia.</li>
+                                  <li>La imagen no debe tener derechos de autor.</li>
+                                </ul>
+
+                              </div>
+
+                              <div class="col-lg-4 border-right">
+                                <h5 class="card-title ">Pasos a seguir:</h5>
+
+                                <ul>
+                                  <li>Elige bien tu foto.</li>
+                                  <li>Piensa un pie de foto y escribelo.</li>
+                                  <li>Sube la imagen.</li>
+                                  <li>Dale a Enviar y...¡Listo!</li>
+                                </ul>
+
+                              </div>
+
+                              <div class="col-lg-4">
+                                <div class="card" >
+                                  <img class="card-img-top" src="../media/LuisTala4.jpg">
+                                  <div class="card-body text-center lead">
+                                    <p>Aquí irá el pie de foto.</p>
+                                  </div>
+                                </div>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+
+                          <div class="card-footer">
+
+                            <form action="imagen.php" method="post">
+
+                              <div class="row">
+                                <div class="col-lg-5 my-3 align-self-center">
+                                  <input type="text" id="pieDeFoto" size="30" placeholder=" Pie de foto..." class="rounded border" >
+                                </div>
+                                <div class="col-lg-5 my-3">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input" id="archivo">
+                                      <label class="custom-file-label" for="archivo">Choose file</label>
+                                      
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-1 my-3">
+                                  <input type="submit" class="btn btn-primary">
+                                </div>
+
+                              </div>
+
+                            </form>
+
+                          </div>
+
+                        </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                
+            </div>
+          </div>        
+        </div>
+      </section>
+
+    </div>
+    <!-- Fin del contenedor principal-->
+
+    <footer>
+         <div class="navbar-osc foot d-none d-lg-block mt-5 fixed-bottom w-100" id="footer">
+           <div class="row justify-content-center">
+             <div class="col-md-4 lead pt-md-2 text-center"> 
+
+                <a href="mailto:info@tlvdlr.com" > info@tlvdlr.com</a>
+
+            </div>
+           </div>
+         </div> 
+      </footer>
+
+    <!-- jQuery,Bootstrap js-->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--Js Propio-->
+    <script src="../js/contactoDark.js"></script>
+  </body>
+</html>
